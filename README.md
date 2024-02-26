@@ -9,6 +9,8 @@ gh repo create
 ```
 Veja a figura abaixo com o passo a passo para criação do repositório usando linha de comando.
 
+![](pic/01%20-%20Criar%20repositório%20Git%20HUB.png)
+
 Figura 01 - Criar repositório por linha de comando.
 
 Como adicionar um arquivo no repositório e fazer o commit no repositório.
@@ -49,6 +51,8 @@ Após verificar o HASH devido do commit, executar o comando abaixo informando o 
 git checkout <informar no HASH> -- <informar o nome do arquivo>
 ```
 
+![](pic/02%20-%20recuperando%20arquivo%20excluído.png)
+
 Figura 02 - Recuperando um arquivo que foi excluído.
 
 
@@ -78,6 +82,8 @@ Vamos informar qual a versão do python que será utilizada no projeto, basta ex
 pyenv local 3.11.5
 ```
 
+![](pic/03%20-%20execução%20comandos%20pyenv%20definicao%20versao.png)
+
 Figura 03 - Definindo versão python para o projeto.
 
 
@@ -90,15 +96,17 @@ Criar o arquivo para ambiente virtual, que nesse caso por questão de nomenclatu
 ```bash
 python -m venv .venv
 ```
-
+![](pic/04%20-%20criação%20ambiente%20virtual.png)
 Figura 04 - criação do ambiente virtual.
 
 
 Importante ressaltar a necessidade de criação de um arquivo na pasta de projeto chamado gitgnore. Esse arquivo contém as informações do que não deve ser enviado para o repositório do github, quando é feito o commit. De forma simplista seria, git, para de verificar tais arquivos.
 
-
+![](pic/05%20-%20arquivo%20gitgnore.png)
 Figura 05 - Exemplo dos arquivo que serão ignorados no processo de commit.
 
+
+![](pic/06%20-%20arquivo%20configuração%20vscode%20settings%20json.png)
 
 Figura 06 - Arquivo de configuração do VSCODE.
 
@@ -133,10 +141,14 @@ Executar o comando para criar o arquivo requirements.txt:
 pip freeze > requirements.txt
 ```
 
+![](pic/07%20-%20pip%20freeze%20requirements.png)
+
 Figura 07 - criação do arquivo requirements.txt
 
 
 Validando o arquivo requirements txt:
+
+![](pic/08%20-%20Validando%20arquivo%20requirements.png)
 
 Figura 08 - Validando o arquivo requirements.txt
 
@@ -154,9 +166,16 @@ Em um projeto no github, o arquivo README, como boa prática, deve conter alguma
 Vejamos um exemplo:
 
 
+![](pic/09%20-%20Exemplo%20readme%20github%20parte01.png)
+
 Figura 09 - Exemplo do README parte 01.
 
+![](pic/10%20-%20Exemplo%20readme%20github%20parte02.png)
+
 Figura 10 - Exemplo do README parte 02.
+
+
+![](pic/11%20-%20Exemplo%20readme%20github%20parte03.png)
 
 Figura 11 - Exemplo do README parte 03.
 
@@ -165,6 +184,9 @@ Figura 11 - Exemplo do README parte 03.
 
 
 Criar a pasta tests, src e docs:
+
+
+![](pic/12%20-%20Pastas%20criadas%20no%20projeto.png)
 
 Figura 12 - Pastas criadas no projeto.
 
@@ -178,6 +200,7 @@ Instalação do pydantic:
 ```bash
 pip install pydantic
 ```
+![](pic/13%20-%20pip%20install%20pydantic%20no%20ambiente%20virtual.png)
 
 Figura 13 - Instalação do pydantic no ambiente virtual .venv
 
